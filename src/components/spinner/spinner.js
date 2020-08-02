@@ -1,12 +1,12 @@
-import React from 'react'
-import "./spinner.css";
-export const Spinner = () => {
+import React from 'react';
+import './spinner.css';
+
+const Spinner = () => {
     return (
-        
-            <div className="loadingio-spinner-spinner-v44i4fq7a2b"><div className="ldio-rqk77qw5jee">
-<div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-</div></div>
-        
+        <div className="lds-css ng-scope">
+            <div className="lds-spin"><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div></div>
+        </div>
     )
 }
+
 export default Spinner;
